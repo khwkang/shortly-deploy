@@ -1,0 +1,63 @@
+steps
+
+1. make the development ver. running 
+2. use console.log to get general understanding of how the app works
+3. make a list of changes needed for deployment 
+4. deploy
+
+extra
+
+1. refactor to use mongodb
+2. 
+
+
+
+//// APP DIRECTORY 
+
+APP               
+  + collections  
+    - links.js
+    - users.js
+  + models
+    - link.js
+    - user.js
+  - config.js
+DB
+
+LIB
+  - request.handler.js
+  - utility.js
+
+PUBLIC
+  + client
+    - app.js
+    - createLinkView.js
+    - link.js
+    - links.js
+    - linksView.js
+    - linkView.js
+    - router.js
+  + dist
+    - .gitkeep
+  + lib
+    - redirect_icon.png
+    - spiffy.gif
+    - style.css
+
+TEST
+  - ServerSpec.js
+
+VIEWS
+  - index.ejs
+  - layout.ejs
+  - login.ejs
+  - signup.ejs
+
+- .deployment
+- .gitignore
+- .jshintrc
+- .dploy.sh
+- .Grunfile.js
+- package.json
+- server.config.js
+- server.js 
